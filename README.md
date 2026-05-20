@@ -2,18 +2,15 @@
 
 ## Overview
 
-The CFRPF is a 38-principle architecture developed as part of a Master of Science
-in Information Technology (Digital Forensics) thesis at American Public University System.
-It addresses three converging challenges in modern enterprise environments: AI auditability,
-evidentiary integrity, and forensic readiness in cloud and hybrid infrastructure.
+I developed the CFRPF as my master's thesis for an MSIT in Digital Forensics at American Public University System. The framework addresses three problems that kept surfacing as I researched cloud forensics: how do you maintain evidentiary integrity in environments you don't physically control, how do you make AI-generated actions traceable and legally defensible, and how do you build forensic readiness into an organization before an incident forces the question?
 
-The framework is organized across five domains:
+The result is a 38-principle architecture organized across five domains:
 
-- **Foundational Forensic Readiness** - establishing baseline capability before an incident occurs
-- **Cloud-Native Evidence Preservation** - handling volatility and custody in distributed environments
-- **AI and Automated System Auditability** - ensuring AI-generated actions are traceable and defensible
-- **Governance, Compliance, and Legal Defensibility** - aligning forensic posture with regulatory frameworks
-- **Incident Response Integration** - connecting forensic readiness to operational IR workflows
+- **Foundational Forensic Readiness** — establishing baseline capability before an incident occurs
+- **Cloud-Native Evidence Preservation** — handling volatility and chain of custody in distributed environments
+- **AI and Automated System Auditability** — ensuring AI-generated actions are traceable and defensible
+- **Governance, Compliance, and Legal Defensibility** — aligning forensic posture with regulatory frameworks
+- **Incident Response Integration** — connecting forensic readiness to operational IR workflows
 
 ## Status
 
@@ -22,18 +19,14 @@ The framework is organized across five domains:
 > and governance law venues. Full principle documentation will be published here
 > following the academic submission process.
 
-## Relevance
+## Who This Is For
 
-The CFRPF was designed with practical applicability in mind, particularly for organizations
-operating in regulated industries (banking, defense, healthcare) and hybrid cloud environments
-using platforms such as Microsoft Azure. It is intended to serve practitioners, architects,
-and compliance teams — not just researchers.
+I designed the CFRPF with practitioners in mind, not just researchers. The target audience is architects, compliance teams, and security engineers working in regulated industries (banking, defense, healthcare) or hybrid cloud environments, particularly on Microsoft Azure. The goal was a framework someone could actually implement, not one that lives in a journal and never touches production.
 
 ## Author
 
-**Joshua E. Newbrey**
-MSIT Digital Forensics Candidate (expected August 2026)
+**Joshua E. Newbrey**  
+MSIT Digital Forensics Candidate (expected August 2026)  
 CompTIA Security+ | SC-200 (in progress) | AZ-500 (in progress)
 
-[LinkedIn](https://www.linkedin.com/in/jnewbrey87/) |
-[GitHub Profile](https://github.com/JNewbrey87)
+[LinkedIn](https://www.linkedin.com/in/jnewbrey87/) | [GitHub Profile](https://github.com/JNewbrey87)
