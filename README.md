@@ -27,6 +27,6 @@ I designed the CFRPF with practitioners in mind, not just researchers. The targe
 
 **Joshua E. Newbrey**  
 MSIT Digital Forensics Candidate (expected August 2026)  
-CompTIA Security+ | SC-200 (in progress) | CySA+ (Aug 2026) | AZ-500 (in progress)
+CompTIA Security+ | SC-200 (future track) | CySA+ (actively studying) | SC-500 (future track)
 
 [LinkedIn](https://www.linkedin.com/in/jnewbrey87/) | [GitHub Profile](https://github.com/JNewbrey87)
