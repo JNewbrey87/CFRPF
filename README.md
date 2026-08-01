@@ -26,7 +26,7 @@ I designed the CFRPF with practitioners in mind, not just researchers. The targe
 ## Author
 
 **Joshua E. Newbrey**  
-MSIT Digital Forensics (degree August 2026)  
+MSIT in Digital Forensics (conferred August 2026)
 CompTIA Security+ | CySA+ (exam target January 2027) | SC-200 and SC-500 to follow
 
 [LinkedIn](https://www.linkedin.com/in/jnewbrey87/) | [GitHub Profile](https://github.com/JNewbrey87)
