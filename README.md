@@ -19,6 +19,13 @@ The result is a 38-principle architecture organized across five domains:
 > and governance law venues. Full principle documentation will be published here
 > following the academic submission process.
 
+## Preprints
+
+Two working papers derived from this research are available as preprints on SSRN:
+
+- **Designing a Forensic Readiness Framework for Evidence Preservation in Cloud and Hybrid Enterprise Environments** — the full CFRPF architecture and its 38 design principles. [SSRN](https://ssrn.com/abstract=7055360) | [DOI: 10.2139/ssrn.7055360](https://doi.org/10.2139/ssrn.7055360)
+- **Closing the AI Audit Gap: Forensic Design Requirements for AI-driven Security Operations** — the AI Auditability component developed as a standalone contribution: five structural gaps AI introduces into security operations, and five corresponding design requirements for auditable AI. [SSRN](https://ssrn.com/abstract=7101678) | [DOI: 10.2139/ssrn.7101678](https://doi.org/10.2139/ssrn.7101678)
+
 ## Who This Is For
 
 I designed the CFRPF with practitioners in mind, not just researchers. The target audience is architects, compliance teams, and security engineers working in regulated industries (banking, defense, healthcare) or hybrid cloud environments, particularly on Microsoft Azure. The goal was a framework someone could actually implement, not one that lives in a journal and never touches production.
@@ -26,7 +33,7 @@ I designed the CFRPF with practitioners in mind, not just researchers. The targe
 ## Author
 
 **Joshua E. Newbrey**  
-MSIT in Digital Forensics (conferred August 2026)
+MSIT in Digital Forensics (conferred August 2026)  
 CompTIA Security+ | CySA+ (exam target January 2027) | SC-200 and SC-500 to follow
 
-[LinkedIn](https://www.linkedin.com/in/jnewbrey87/) | [GitHub Profile](https://github.com/JNewbrey87)
+[LinkedIn](https://www.linkedin.com/in/jnewbrey87/) | [GitHub Profile](https://github.com/JNewbrey87) | [ORCID](https://orcid.org/0009-0000-6116-3098)
