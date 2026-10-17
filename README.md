@@ -2,9 +2,9 @@
 
 ## Overview
 
-I developed the CFRPF as my master's thesis for an MSIT in Digital Forensics at American Public University System. The framework addresses three problems that kept surfacing as I researched cloud forensics: how do you maintain evidentiary integrity in environments you don't physically control, how do you make AI-generated actions traceable and legally defensible, and how do you build forensic readiness into an organization before an incident forces the question?
+I developed the CFRPF as my master's thesis for an MSIT in Digital Forensics at American Public University System. It came out of three questions that kept surfacing while I researched cloud forensics: how do you keep evidence trustworthy in an environment you don't physically control, how do you make AI-driven actions traceable and legally defensible, and how do you build forensic readiness into an organization before an incident forces the question?
 
-The result is 38 design principles organized across four components, with AI auditability as a cross-cutting principle that applies to all four:
+The answer I landed on is 38 design principles organized into four components, with AI auditability as a cross-cutting principle that applies to all four:
 
 - **Telemetry and Log Aggregation:** collecting and centralizing the logs that evidence depends on
 - **Immutable Evidence Preservation:** keeping evidence in a form that can't be quietly altered, with chain of custody intact
@@ -15,14 +15,18 @@ The result is 38 design principles organized across four components, with AI aud
 
 ## Preprints
 
-Two working papers derived from this research are available as preprints on SSRN:
+Two working papers from this research are available as preprints on SSRN:
 
 - **Designing a Forensic Readiness Framework for Evidence Preservation in Cloud and Hybrid Enterprise Environments:** the full CFRPF architecture and its 38 design principles. [SSRN](https://ssrn.com/abstract=7055360) | [DOI: 10.2139/ssrn.7055360](https://doi.org/10.2139/ssrn.7055360)
-- **Closing the AI Audit Gap: Forensic Design Requirements for AI-driven Security Operations:** the cross-cutting AI Auditability principle developed as a standalone paper, covering five structural gaps AI introduces into security operations and five corresponding design requirements for auditable AI. [SSRN](https://ssrn.com/abstract=7101678) | [DOI: 10.2139/ssrn.7101678](https://doi.org/10.2139/ssrn.7101678)
+- **Closing the AI Audit Gap: Forensic Design Requirements for AI-driven Security Operations:** the cross-cutting AI Auditability principle developed as a standalone paper, covering five structural gaps AI introduces into security operations and five matching design requirements for auditable AI. [SSRN](https://ssrn.com/abstract=7101678) | [DOI: 10.2139/ssrn.7101678](https://doi.org/10.2139/ssrn.7101678)
+
+## Putting It Into Practice
+
+I'm testing parts of the framework in code through AEGIS, my local Red Team / Blue Team AI simulation. The [AEGIS evidence ledger](https://github.com/JNewbrey87/cloud-security-lab-notes/blob/main/aegis/aegis-02-evidence-ledger.md) applies Immutable Evidence Preservation and AI Auditability to agent decisions: a hash-chained, tamper-evident record of what each AI agent decided and why.
 
 ## Who This Is For
 
-I designed the CFRPF with practitioners in mind, not just researchers. The target audience is architects, compliance teams, and security engineers working in regulated industries (banking, defense, healthcare) or hybrid cloud environments, particularly on Microsoft Azure. The goal was a framework someone could actually implement, not one that lives in a journal and never touches production.
+I wrote the CFRPF with practitioners in mind, not just researchers: architects, compliance teams, and security engineers in regulated industries (banking, defense, healthcare) or hybrid cloud environments, particularly on Microsoft Azure. The goal was a framework someone could actually implement, not one that lives in a journal and never touches production.
 
 ## Author
 
