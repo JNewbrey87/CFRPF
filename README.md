@@ -22,7 +22,7 @@ Two working papers from this research are available as preprints on SSRN:
 
 ## Putting It Into Practice
 
-I'm testing parts of the framework in code through AEGIS, my local Red Team / Blue Team AI simulation. The [AEGIS evidence ledger](https://github.com/JNewbrey87/cloud-security-lab-notes/blob/main/aegis/aegis-02-evidence-ledger.md) applies Immutable Evidence Preservation and AI Auditability to agent decisions: a hash-chained, tamper-evident record of what each AI agent decided and why.
+I'm testing parts of the framework in code through AEGIS, my local Red Team / Blue Team AI simulation. The [AEGIS evidence ledger](https://github.com/JNewbrey87/cloud-security-lab-notes/blob/main/aegis/02-AEGIS-Evidence-Ledger.md) applies Immutable Evidence Preservation and AI Auditability to agent decisions: a hash-chained, tamper-evident record of what each AI agent decided and why.
 
 ## Who This Is For
 
